@@ -95,9 +95,35 @@ from types import(
 
 [6] - Espaços em expressões e instruções
 
-"""
-#não faça
+
+# Não faça:
 funcao( algo[ 1 ], { outro: 2} )
 
-# Faça
+# Faça:
 funcao(algo[1], {outro: 2})
+
+# Não faça:
+algo (1)
+
+# Faça:
+algo(1) # Parentese sempre junto
+
+# Não faça:
+dict ['chave'] = lista[indice]
+
+#Faça:
+dict['chave'] = lista[indice]
+
+#Não Faça:
+x              = 1
+y              = 3
+variavel_longa = 4
+
+# Faça:
+x = 1
+y = 3
+variavel_longa = 4
+
+[7] - Termine sempre uma instrução com uma nova linha
+"""
+#deixar sempre uma linha em branco apos qualquer coisa que voce escrevera
