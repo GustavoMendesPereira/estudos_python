@@ -127,3 +127,4 @@ variavel_longa = 4
 [7] - Termine sempre uma instrução com uma nova linha
 """
 #deixar sempre uma linha em branco apos qualquer coisa que voce escrevera
+print('Hellow World')
