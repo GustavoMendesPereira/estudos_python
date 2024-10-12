@@ -1,4 +1,6 @@
-
+"""
+3. Faça um programa que recebe três valores e apresente a soma dos quadrados dos valores lidos.
+"""
 valor1: int = int(input("Digite o primeiro valor:"))
 valor2: int = int(input("Digite o segundo valor:"))
 valor3: int = int(input("Agora digite o terceiro valor:"))
